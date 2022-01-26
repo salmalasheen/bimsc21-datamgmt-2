@@ -12,7 +12,7 @@ animate()
 
 function init() {
 
-    THREE.Object3D.DefaultUp = new THREE.Vector3( 0, 0, 1 )
+    THREE.Object3D.DefaultUp = new THREE.Vector3( 0, 0, 3 )
 
     // create a scene and a camera
     scene = new THREE.Scene()
